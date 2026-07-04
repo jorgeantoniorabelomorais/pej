@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" role="img" aria-label="Sunflower">
+  <defs>
+    <linearGradient id="sfPetalGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="23%" stop-color="#3AB8B4"/>
+      <stop offset="99%" stop-color="#3ab8b4"/>
+      <stop offset="100%" stop-color="#3ab8b4"/>
+    </linearGradient>
+    <radialGradient id="sfCenterGradient" cx="35%" cy="35%" r="91.9239%" fx="35%" fy="35%">
+      <stop offset="0%" stop-color="#6c1ca8"/>
+      <stop offset="12%" stop-color="#6c1ca8"/>
+      <stop offset="100%" stop-color="#6c1ca8"/>
+    </radialGradient>
+  </defs>
+  <style>
+  .sf-petals {
+    transform-box: view-box;
+    transform-origin: 46px 47px;
+  }
+</style>
+  <g>
+    <g class="sf-petals">
+      <path d="M 46 8 L 46 8 A 10 16 0 0 1 56 24 L 56 25.2308 A 9.23077 14.7692 0 0 1 46.7692 40 L 45.2308 40 A 9.23077 14.7692 0 0 1 36 25.2308 L 36 24 A 10 16 0 0 1 46 8 Z" fill="url(#sfPetalGradient)" transform="rotate(0 46 47)"/>
+      <path d="M 46 8 L 46 8 A 10 16 0 0 1 56 24 L 56 25.2308 A 9.23077 14.7692 0 0 1 46.7692 40 L 45.2308 40 A 9.23077 14.7692 0 0 1 36 25.2308 L 36 24 A 10 16 0 0 1 46 8 Z" fill="url(#sfPetalGradient)" transform="rotate(45 46 47)"/>
+      <path d="M 46 8 L 46 8 A 10 16 0 0 1 56 24 L 56 25.2308 A 9.23077 14.7692 0 0 1 46.7692 40 L 45.2308 40 A 9.23077 14.7692 0 0 1 36 25.2308 L 36 24 A 10 16 0 0 1 46 8 Z" fill="url(#sfPetalGradient)" transform="rotate(90 46 47)"/>
+      <path d="M 46 8 L 46 8 A 10 16 0 0 1 56 24 L 56 25.2308 A 9.23077 14.7692 0 0 1 46.7692 40 L 45.2308 40 A 9.23077 14.7692 0 0 1 36 25.2308 L 36 24 A 10 16 0 0 1 46 8 Z" fill="url(#sfPetalGradient)" transform="rotate(135 46 47)"/>
+      <path d="M 46 8 L 46 8 A 10 16 0 0 1 56 24 L 56 25.2308 A 9.23077 14.7692 0 0 1 46.7692 40 L 45.2308 40 A 9.23077 14.7692 0 0 1 36 25.2308 L 36 24 A 10 16 0 0 1 46 8 Z" fill="url(#sfPetalGradient)" transform="rotate(180 46 47)"/>
+      <path d="M 46 8 L 46 8 A 10 16 0 0 1 56 24 L 56 25.2308 A 9.23077 14.7692 0 0 1 46.7692 40 L 45.2308 40 A 9.23077 14.7692 0 0 1 36 25.2308 L 36 24 A 10 16 0 0 1 46 8 Z" fill="url(#sfPetalGradient)" transform="rotate(225 46 47)"/>
+      <path d="M 46 8 L 46 8 A 10 16 0 0 1 56 24 L 56 25.2308 A 9.23077 14.7692 0 0 1 46.7692 40 L 45.2308 40 A 9.23077 14.7692 0 0 1 36 25.2308 L 36 24 A 10 16 0 0 1 46 8 Z" fill="url(#sfPetalGradient)" transform="rotate(270 46 47)"/>
+      <path d="M 46 8 L 46 8 A 10 16 0 0 1 56 24 L 56 25.2308 A 9.23077 14.7692 0 0 1 46.7692 40 L 45.2308 40 A 9.23077 14.7692 0 0 1 36 25.2308 L 36 24 A 10 16 0 0 1 46 8 Z" fill="url(#sfPetalGradient)" transform="rotate(315 46 47)"/>
+    </g>
+    <circle cx="46" cy="46" r="16" fill="url(#sfCenterGradient)"/>
+    <circle cx="46" cy="46" r="14.5" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="3"/>
+  </g>
+</svg>

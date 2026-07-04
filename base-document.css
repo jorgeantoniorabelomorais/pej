@@ -1,0 +1,6 @@
+html{background:var(--bg);scroll-padding-top:calc(var(--note-height) + 1rem);scroll-padding-bottom:calc(var(--tab-height) + 1.25rem)}
+body{font-family:var(--ui-font);background-color:var(--bg);background-image:var(--texture);background-repeat:no-repeat;background-size:cover;background-position:center;color:var(--text);padding:calc(var(--note-height) + .75rem) 0 calc(var(--tab-height) + .85rem + env(safe-area-inset-bottom,0px));text-align:right;touch-action:manipulation}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;background-image:url('sunflower-bg-tile.svg')!important;background-color:transparent!important;background-blend-mode:normal!important;background-repeat:repeat;background-size:104px 104px;background-position:top left;mix-blend-mode:normal;filter:none;opacity:1}
+body::after{content:'';position:fixed;inset:0;pointer-events:none;background:var(--loading-overlay);opacity:0;transition:opacity .12s;z-index:9997}
+body.loading::after{opacity:1}
+html[data-hand="Canhoto"] body{text-align:left}

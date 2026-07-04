@@ -1,0 +1,4 @@
+@media(min-width:540px){.content-controls{flex-direction:row;align-items:center}.sw{flex:1}.sort-sel{inline-size:auto;min-inline-size:160px}}
+@media(min-width:860px){:root{--page-gutter:2rem}.app-main{max-inline-size:72rem}.card-flow{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-content:end}.base-card,.card-flow{inline-size:min(100%,68rem)}.global-menu{inset-inline-end:max(1rem,env(safe-area-inset-right,0px))}html[data-hand="Canhoto"] .global-menu{inset-inline-start:max(1rem,env(safe-area-inset-left,0px))}}
+@media(max-width:360px){:root{--tab-height:62px}.dot-menu{flex-basis:62px}.note-text{font-size:10px}.ugt-title{font-size:1.08rem}.global-menu{border-radius:calc(var(--menu-radius) * .8)}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}

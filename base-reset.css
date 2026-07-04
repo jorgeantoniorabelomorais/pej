@@ -1,0 +1,9 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{min-height:100%;max-width:100%;overflow-x:hidden;font-size:16px}
+body{min-height:100dvh;max-width:100%;overflow-x:hidden}
+img,svg,video,canvas,iframe,table,input,select,textarea,button{max-inline-size:100%}
+button,input,select,textarea{font:inherit;color:inherit}
+pre,code,kbd,samp{font-family:var(--mono-font);white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word}
+:where(p,h1,h2,h3,h4,h5,h6,a,span,li,button,label,summary,small,strong,em){overflow-wrap:anywhere}
+:where(button,select,input[type="checkbox"],summary){min-block-size:var(--tap)}
+:where(a,button,input,select,textarea,summary,[tabindex]):focus-visible{outline:3px solid color-mix(in srgb,var(--p700) 55%,transparent);outline-offset:3px}
