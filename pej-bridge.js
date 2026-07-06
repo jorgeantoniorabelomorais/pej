@@ -224,11 +224,11 @@
 
     if(titleEl){
       titleEl.innerHTML = [
-        '<span class="pej-global-title-main">Pontos de Interesse</span>',
-        '<span class="pej-global-title-sub">de <span class="pej-global-title-names">Paloma &amp; Georgee</span></span>'
+        '<span class="pej-global-title-main">Lista</span>',
+        '<span class="pej-global-title-sub">de <span class="pej-global-title-names">Lommyyyeeee &amp; Georgeeee</span></span>'
       ].join('');
-      titleEl.setAttribute('aria-label', `Pontos de Interesse de Paloma e Georgee, ${kickerText}`);
-      titleEl.setAttribute('title', 'Pontos de Interesse de Paloma & Georgee');
+      titleEl.setAttribute('aria-label', `Lista de Lommyyyeeee e Georgeeee, ${kickerText}`);
+      titleEl.setAttribute('title', 'Lista de Lommyyyeeee & Georgeeee');
     }
   }
 
@@ -244,7 +244,7 @@
     if(window.BaseMain && typeof window.BaseMain.setGlobalTitle === 'function'){
       // Chama a API para manter o evento basemain:titlechange e depois repinta com HTML.
       window.BaseMain.setGlobalTitle(
-        `Pontos de Interesse de Paloma & Georgee`,
+        `Lista de Lommyyyeeee & Georgeeee`,
         bits.length ? bits.join(' · ') : `${safeTotal} lugares`
       );
     }
